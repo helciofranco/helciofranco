@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-🤓 Tech Lead at [@TradersClub](https://tc.com.br)<br>
+🤓 Software Engineer at [@Fuel](https://fuel.network)<br>
 🇧🇷 Born in Campo Grande, Brazil<br>
 
 ### Skills
