@@ -1,9 +1,7 @@
 {
   "breadcrumbs.enabled": true,
-  "workbench.startupEditor": "none",
   "workbench.editor.labelFormat": "short",
-  "workbench.activityBar.location": "top",
-  "workbench.statusBar.visible": true,
+  "workbench.statusBar.visible": false,
   "editor.fontFamily": "JetBrains Mono",
   "editor.tabSize": 2,
   "editor.fontSize": 14,
@@ -14,22 +12,40 @@
   "editor.minimap.enabled": false,
   "editor.scrollbar.vertical": "visible",
   "editor.scrollbar.horizontal": "hidden",
-  "editor.defaultFormatter": "biomejs.biome",
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "editor.gotoLocation.multipleDefinitions": "goto",
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
-  "editor.gotoLocation.multipleDefinitions": "goto",
   "explorer.fileNesting.patterns": {
     "tsconfig.json": "tsconfig.*.json",
-    "package.json": "package-lock.json, turbo.json, biome.json, vercel.json, yarn.lock, .npmrc, .npmignore, .nvmrc, pnpm-*.yaml, bun.lockb",
+    "package.json": "package-lock.json, turbo.json, biome.json, .prettierrc, vercel.json, yarn.lock, .npmrc, .npmignore, .nvmrc, pnpm-*.yaml",
+    "bunfig.toml": "bun.lockb, bun.lock, .bun-version",
+    ".rustfmt.toml": "Cargo.lock, Cargo.toml, fuel-toolchain.toml",
+    ".gitignore": ".dockerignore, .prettierignore",
     "README.md": "LICENSE"
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "search.exclude": {
+    "**/generated": true,
+    "**/dist": true,
+    "**/.next": true,
+    "**/tsconfig.tsbuildinfo": true,
+    "**/public/storybook": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/.next/**": true,
+    "**/.turbo/**": true
   },
   "window.commandCenter": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "diffEditor.ignoreTrimWhitespace": false,
-  "workbench.colorTheme": "Default Light Modern"
+  "workbench.colorTheme": "Default Light Modern",
+  "diffEditor.renderSideBySide": false,
+  "workbench.editor.enablePreview": false,
+  "extensions.ignoreRecommendations": true
 }
