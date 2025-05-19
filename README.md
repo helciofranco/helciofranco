@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 🤓 Software Engineer at [@Fuel](https://fuel.network)<br>
-🇧🇷 Born in Campo Grande, Brazil<br>
+🇧🇷 Made in Brazil<br>
 
 ### Skills
 
@@ -9,4 +9,4 @@
 ⚙ `Backend` Golang, NodeJS, PHP, Python.<br>
 🗄 `Databases` PostgreSQL, MySQL, MongoDB, ElasticSearch, Redis.<br>
 🔧 `Tools` Webpack, Rollup, TSC, Babel, SWC.<br>
-🧪 `Testing` Jest, Cypress, Testing Library, Detox, Puppeteer.<br>
+🧪 `Testing` Vitest, Jest, Cypress, Testing Library, Detox, Puppeteer.<br>
