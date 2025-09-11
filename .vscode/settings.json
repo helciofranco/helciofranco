@@ -1,21 +1,42 @@
 {
+  // AI & Chat Features
+  "chat.agent.enabled": false,
+  "chat.checkpoints.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "github.copilot.chat.agent.autoFix": false,
+  "github.copilot.chat.agent.runTasks": false,
+  "github.copilot.chat.codeGeneration.useInstructionFiles": false,
+  "github.copilot.chat.customInstructionsInSystemMessage": false,
+  "github.copilot.chat.useProjectTemplates": false,
+  "github.copilot.editor.enableCodeActions": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+
+  // Breadcrumbs
   "breadcrumbs.enabled": true,
-  "workbench.editor.labelFormat": "short",
-  "workbench.statusBar.visible": false,
+
+  // Diff Editor
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.renderSideBySide": false,
+
+  // Editor
   "editor.fontFamily": "JetBrains Mono",
-  "editor.tabSize": 2,
-  "editor.fontSize": 14,
-  "editor.lineHeight": 1.8,
-  "editor.rulers": [80, 120],
-  "editor.semanticHighlighting.enabled": false,
   "editor.fontLigatures": true,
-  "editor.minimap.enabled": false,
-  "editor.scrollbar.vertical": "visible",
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.formatOnSave": false,
+  "editor.fontSize": 14,
   "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
   "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.lineHeight": 1.8,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [80, 120],
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "visible",
+  "editor.semanticHighlighting.enabled": false,
+  "editor.tabSize": 2,
+
+  // Explorer
   "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
     "*.ts": "${capture}.js",
@@ -29,8 +50,17 @@
     ".gitignore": ".dockerignore, .prettierignore",
     "README.md": "LICENSE"
   },
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
+
+  // Extensions
+  "extensions.ignoreRecommendations": true,
+
+  // Files & Search
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/.next/**": true,
+    "**/.turbo/**": true
+  },
   "search.exclude": {
     "**/generated": true,
     "**/dist": true,
@@ -38,24 +68,24 @@
     "**/tsconfig.tsbuildinfo": true,
     "**/public/storybook": true
   },
-  "files.watcherExclude": {
-    "**/node_modules/**": true,
-    "**/dist/**": true,
-    "**/.next/**": true,
-    "**/.turbo/**": true
-  },
-  "window.commandCenter": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "diffEditor.ignoreTrimWhitespace": true,
-  "workbench.colorTheme": "Default Dark Modern",
-  "diffEditor.renderSideBySide": false,
-  "workbench.editor.enablePreview": false,
-  "extensions.ignoreRecommendations": true,
-  "biome.suggestInstallingGlobally": false,
-  "xstate.nestTypegenFiles": false,
+
+  // Git
   "git.confirmSync": false,
+  "gitlens.currentLine.enabled": true,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+
+  // Language-specific
   "[astro]": {
     "editor.defaultFormatter": "astro-build.astro-vscode"
-  }
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // Window & Workbench
+  "window.commandCenter": false,
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.labelFormat": "short",
+  "workbench.statusBar.visible": false
 }
