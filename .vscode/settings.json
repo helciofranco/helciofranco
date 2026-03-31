@@ -2,14 +2,6 @@
   // AI & Chat Features
   "chat.agent.enabled": false,
   "chat.checkpoints.enabled": false,
-  "chat.commandCenter.enabled": false,
-  "github.copilot.chat.agent.autoFix": false,
-  "github.copilot.chat.agent.runTasks": false,
-  "github.copilot.chat.codeGeneration.useInstructionFiles": false,
-  "github.copilot.chat.customInstructionsInSystemMessage": false,
-  "github.copilot.chat.useProjectTemplates": false,
-  "github.copilot.editor.enableCodeActions": false,
-  "github.copilot.nextEditSuggestions.enabled": true,
 
   // Breadcrumbs
   "breadcrumbs.enabled": true,
@@ -76,16 +68,13 @@
   "gitlens.codeLens.recentChange.enabled": false,
 
   // Language-specific
-  "[astro]": {
-    "editor.defaultFormatter": "astro-build.astro-vscode"
-  },
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
 
   // Window & Workbench
   "window.commandCenter": false,
-  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.colorTheme": "Dark Modern",
   "workbench.editor.enablePreview": false,
   "workbench.editor.labelFormat": "short",
-  "workbench.statusBar.visible": false
+  "workbench.statusBar.visible": false,
+  "workbench.preferredLightColorTheme": "Dark Modern"
 }
