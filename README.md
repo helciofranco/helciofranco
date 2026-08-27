@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-🤓 Software Engineer at [@Fuel](https://fuel.network)<br>
+🤓 Software Engineer at [@Blueprint_DeFi](https://x.com/Blueprint_DeFi)<br>
 🇧🇷 Made in Brazil<br>
 
 ### Skills
